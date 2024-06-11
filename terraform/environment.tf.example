@@ -1,0 +1,5 @@
+locals {
+  location        = "westeurope"
+  subscription_id = "123-456-789"
+  workload_name   = "workload1"
+}
