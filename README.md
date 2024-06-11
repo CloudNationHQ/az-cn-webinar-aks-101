@@ -1,5 +1,7 @@
 # CloudNation Webinar
 
+This repository is to show how one can simply set up an azure AKS environment with a container registry to quickly deploy a simple and stable application
+
 Prerequisites:
 
 A application which can be built using a `Dockerfile`
