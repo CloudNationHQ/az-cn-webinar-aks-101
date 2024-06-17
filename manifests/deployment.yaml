@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-test
-        image: acracrmauritsafyz.azurecr.io/flask-test:version3
+        image: acracrmauritsafyz.azurecr.io/flask-test:version1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
