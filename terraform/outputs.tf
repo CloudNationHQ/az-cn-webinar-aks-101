@@ -9,3 +9,7 @@ output "az_get_credentials" {
 output "kubelogin_convert" {
   value = "kubelogin convert-kubeconfig --login azurecli"
 }
+
+output "acr_login" {
+  value = "az acr login --name ${azurerm_container_registry.default.name}"
+}
