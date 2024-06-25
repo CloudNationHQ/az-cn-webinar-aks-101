@@ -6,7 +6,7 @@ Prerequisites:
 
 A application which can be built using a `Dockerfile`
 
-Go into the `terraform` folder and add your subscription ID in the environment.tf.example file and name your workload
+Go into the `terraform` and rename the `environment.tf.example` file to `environment.tf`, add your existing azure subscription ID and give a name your workload. If you have issues deploying your workload in the region `westeurope` consider changing the location to another region, e.g. `germanywestcentral`
 
 Run `terraform init` to download the required providers.
 
